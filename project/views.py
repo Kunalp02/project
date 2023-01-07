@@ -4,7 +4,7 @@ from newscatcherapi import NewsCatcherApiClient
 
 def index(request):
 
-    newscatcherapi = NewsCatcherApiClient(x_api_key='Api_key')
+    newscatcherapi = NewsCatcherApiClient(x_api_key='j9eDrL_PjAatxMYJu9Tox0xANBQYmGePDDArY7aO4mQ')
 
     all_articles = newscatcherapi.get_search(q='Elon Musk',
                                             lang='en',
