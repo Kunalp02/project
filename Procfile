@@ -1,1 +1,1 @@
-python manage.py migrate && gunicorn project.wsgi
+web: npm run start
